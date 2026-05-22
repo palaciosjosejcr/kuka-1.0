@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulación Robot KUKA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Simulación KUKA Clasificador</h1>
+
+<div class="planta">
+
+    <div id="robot">
+        <div class="base"></div>
+        <div class="brazo"></div>
+    </div>
+
+    <div class="sensor sensor1">Sensor Orden</div>
+
+    <div class="sensor sensor2">Sensor Color</div>
+
+    <div class="cinta">
+        <div id="bloque"></div>
+    </div>
+
+    <div class="descarte">Descarte</div>
+
+    <div class="contenedores">
+        <div class="contenedor rojo">Rojo</div>
+        <div class="contenedor azul">Azul</div>
+        <div class="contenedor verde">Verde</div>
+    </div>
+
+</div>
+
+<button onclick="iniciarProceso()">INICIAR</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
